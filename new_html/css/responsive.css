@@ -1,0 +1,1194 @@
+@media (min-width: 1200px) and (max-width: 1440px) {}
+
+@media (min-width: 1200px) and (max-width: 1309px) {}
+
+@media (min-width: 1440px) {
+
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1640px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobile_logo {
+    display: none;
+  }
+
+  .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 1659.98px) {
+  .light_heading {
+    font-size: 17rem;
+  }
+  .row_spece {
+    margin-top: -165px;
+  }
+  .howToPlayHeading {
+    font-size: 13rem;
+    line-height: 20rem;
+  }
+  .howPlay_contentBlock{
+    margin-left: 100px;
+  }
+  .swiper-pagination-how {
+    gap: 50px;
+    margin-left: 105px;
+  }
+  .swiper-pagination-how .swiper-pagination-bullet{
+    font-size: 20rem;
+  }
+  .clientSection{
+    min-height: 450px;
+  }
+  .featureBack_title {
+    font-size: 15rem;
+  }
+  .featureCard{
+    height: 600px;
+  }
+}
+
+@media (max-width:1439.98px) {
+  .banner{
+    min-height: 950px;
+  }
+  .banner_title{
+    font-size: 10.5rem;
+  }
+  .rocky_text,
+  .otherPage_title {
+    font-size: 8.4rem;
+  }
+  .banner_title::first-letter {
+    font-size: 11.7rem;
+  }
+  .about_us:before{
+    width: 900px;
+  }
+  .row_spece {
+    margin-top: -100px;
+  }
+
+  .hotToPlay_col_1 {
+    flex: 0 0 450px;
+    max-width: 450px;
+    padding-left: 0;
+  }
+  .hotToPlay_col_2{
+    flex: 0 0 calc(100% - 450px);
+    max-width: calc(100% - 450px);
+    align-self: center;
+  }
+  .howPlay_contentBlock ,
+  .swiper-pagination-how{
+    margin-left: 0;
+  }
+  .howPlay_contentBlock{
+    margin-top: 55px;
+    margin-bottom: 40px;
+  }
+  .howToPlayHeading {
+    font-size: 10rem;
+    line-height: 12rem;
+    translate: calc(-0.5% * (max(var(--scroll), 130) - 166) * 100 / 25) 0;
+  }
+  .swiperParentRelate {
+    top: 11px;
+    max-width: 278px;
+  }
+  .howToPlay{
+    min-height: 805px;
+  }
+  .commonHeading {
+    font-size: 7rem;
+    line-height: 8.6rem;
+  }
+  .howPlay_contentBlock p {
+    font-size: 2rem;
+  }
+  .swiper-pagination-how .swiper-pagination-bullet {
+    font-size: 18rem;
+    line-height: 14rem;
+  }
+  .aboutHeading_content .heading,
+  .headingAbout_content {
+    font-size: 7rem;
+  }
+  .light_heading {
+    font-size: 13rem;
+    margin-top: 0;
+  }
+  .downloadSection {
+    padding: 55px 0;
+  }
+  .downloadSection p {
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+  .mailGroup {
+    margin: 50px auto 0;
+  }
+  .clientSection {
+    padding: 100px 0 80px;
+    min-height: unset;
+    overflow: hidden;
+  }
+  .featureHeadingAnime {
+    translate: 0 calc(-0.5% * (max(var(--scroll), 280)  - 296) * 45 / 25);
+    line-height: 22rem;
+  }
+  .featureCard {
+    height: 480px;
+  }
+  .testimonials_section {
+    padding: 90px 0 200px;
+    overflow: hidden;
+  }
+  .testiHeading {
+    translate: calc(-1% * (max(var(--scroll), 287) - 392) * 100 / 248) 0;
+  }
+  .featureCard_col_content{
+    padding: 35px 30px 0;
+  }
+  .featureCard_col_content h4 {
+    font-size: 3rem;
+    line-height: 3.8rem;
+  }
+  .featureCard_col_content p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .featureCard_col_content h3 {
+    font-size: 15.8rem;
+    line-height: 20.7rem;
+  }
+  .featureTopTitles{
+    flex:1;
+    gap: 10px;
+  }
+}
+
+
+
+@media (max-width:1199.98px) {
+  .banner {
+    min-height: 800px;
+  }
+  .banner_title {
+    font-size: 8.5rem;
+  }
+  .rocky_text,
+  .otherPage_title {
+    font-size: 6.4rem;
+  }
+  .banner_title::first-letter {
+    font-size: 9.7rem;
+  }
+  .about_us:before {
+    width: 700px;
+  }
+  .about_us{
+    padding: 6rem 0 7rem;
+  }
+  .row_spece {
+    margin-top: -60px;
+  }
+  .light_heading{
+    font-size: 11rem;
+    translate: calc(-0.5% * (max(var(--scroll), 40) - 72) * 120 / 30) 0;
+  }
+  .aboutHeading_content .heading ,
+  .headingAbout_content {
+    font-size: 6rem;
+  }
+  .aboutHeading_content p{
+    font-size: 1.6rem;
+  }
+  .themeBtn_2{
+    min-width: 175px;
+  }
+  .howToPlay {
+    min-height: 700px;
+    padding-top: 65px;
+  }
+  .hotToPlay_col_1 {
+    flex: 0 0 370px;
+    max-width: 370px;
+  }
+  .hotToPlay_col_2 {
+    flex: 0 0 calc(100% - 370px);
+    max-width: calc(100% - 370px);
+  }
+  .swiperParentRelate {
+    top: 9px;
+    max-width: 228px;
+  }
+  .howToPlayHeading {
+    font-size: 9rem;
+    line-height: 12rem;
+    translate: calc(-0.5% * (max(var(--scroll), 75) - 145) * 105 / 25) 0;
+  }
+  .commonHeading {
+    font-size: 6rem;
+    line-height: 7.6rem;
+  }
+  .howPlay_contentBlock{
+    gap:20px
+  }
+  .howPlay_contentBlock p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    padding-left: 15px;
+  }
+  .swiper-pagination-how .swiper-pagination-bullet {
+    font-size: 11rem;
+    line-height: 11rem;
+  }
+  .swiper-pagination-how {
+    gap: 35px;
+  }
+  .downloadSection p {
+    line-height: 2rem;
+    font-size: 1.8rem;
+    margin-top: 20px;
+  }
+  .mailGroup {
+    margin: 40px auto 0;
+  }
+  .clientSection {
+    padding: 80px 0 80px;
+  }
+  .featureHeadingAnime {
+    translate: 0 calc(-0.5% * (max(var(--scroll), 207)  - 267) * 45 / 25);
+    line-height: 16rem;
+    margin-top: -53px;
+    margin-bottom: -23px;
+    font-size: 12rem;
+  }
+  .featureCard {
+    height: 415px;
+  }
+  .testimonials_section {
+    padding: 70px 0 155px;
+  }
+  .testimonials_section .featureBack_title {
+    font-size: 10rem;
+    line-height: 15rem;
+    margin-top: -75px;
+  }
+  .testiHeading{
+    translate: calc(-1% * (max(var(--scroll), 235) - 325) * 100 / 248) 0;
+  }
+  .featureCard_col_content h4 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+  .featureCard_col_content p {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+  .featureCard_col_content h3 {
+    font-size: 14.8rem;
+    line-height: 13.7rem;
+  }
+  .testimonial_card .userWinAmt {
+    font-size: 3rem;
+    line-height: 4.4rem;
+  }
+  .testimonial_card .userContent_review{
+    font-size: 1.6rem;
+  }
+  .testimonial_card .userName {
+    font-size: 1.8rem;
+  }
+  .testiArrowGroup button {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+  }
+}
+
+@media (max-width: 991.98px) {
+
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .navbar-toggler {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0px;
+    padding: 0;
+    z-index: 2;
+    transform: scale(1.2);
+  }
+  .navbar-toggler.menu-opened{
+    border-color: #fff;
+    border-radius: 0;
+    transition:  all .3s linear;
+  }
+
+  .navbar-toggler.menu-opened:hover{
+    border-color: #FFB806;
+  }
+  .navbar-toggler:before {
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: 2px;
+    width: 22px;
+    background: #fff;
+    content: "";
+  }
+
+  .navbar-toggler span {
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+    display: block;
+    height: 2px;
+    width: 14px;
+    background: #fff;
+  }
+
+  .navbar-toggler:after {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    display: block;
+    height: 4px;
+    width: 22px;
+    border-top: 2px solid #fff;
+    content: "";
+  }
+
+  .navbar-toggler.menu-opened:before {
+    top: 10px;
+    background: #fff;
+    width: 22px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    /* -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); */
+  }
+
+  .navbar-toggler.menu-opened span {
+    opacity: 0;
+  }
+
+  .navbar-toggler.menu-opened:after {
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    top: 10px;
+    border: 0;
+    height: 2px;
+    width: 22px;
+    background: #fff;
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    transform: rotate(225deg);
+    /* -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); */
+  }
+
+  /* Main Menu */
+  header .collapse:not(.show) {
+    display: block;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    height: 100%;
+    min-height: 100vh;
+    overflow-y: auto;
+    width: 100%;
+    background: #111111;
+    padding:  12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    transition:all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  header .collapse:not(.show).menu-show {
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  header .collapse:not(.show)::before{
+    content: '';
+    background-image: url(../img/gradient-before.png);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    rotate: 450deg;
+    right: 0;
+
+  }
+  body.scroll-off {
+    overflow-y: hidden;
+  }
+
+
+  
+
+  .mobile_logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .is-sticky .mobile_logo {
+    padding: 15px 10px;
+  }
+
+  .is-sticky .collapse:not(.show) {
+    padding-top: 75px;
+  }
+
+  .mobile_logo img {
+    max-height: 30px;
+    width: auto;
+  }
+
+  header .navbar-expand-lg .navbar-nav .nav-link.sign_up {
+    margin-top: 20px;
+  }
+
+  .overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+
+
+  header .navbar-brand{
+    margin:0;
+    padding: 0;
+  }
+  header .navbar-brand img{
+    max-height: 50px;
+  }
+
+
+  .getAppImg {
+    margin-top: -145px;
+    text-align: center;
+    max-width: 245px;
+  }
+  .footerLinkMenu li a ,
+  .copyRightText,
+  .footerAddress{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+  .footerLinkMenu{
+    margin: 25px 0;
+  }
+  .copyRightBlock {
+    padding: 15px 0;
+    gap: 10px;
+  }
+  .footer_wrapper {
+    padding: 40px 0 0;
+  }
+
+  .getAppSection {
+    padding: 50px 0 0;
+  }
+  .commonHeading {
+    font-size: 5rem;
+    line-height: 5.6rem;
+  }
+  .appGetcontnt {
+    max-width:100%;
+    margin-left: auto;
+    padding-bottom: 50px;
+  }
+  .testBlockParent .testiArrowGroup button {
+    translate: 0 -50%;
+    opacity: 1;
+  }
+
+
+  header .navbar-expand-lg .navbar-nav .nav-item:not(:last-child){
+    margin-right: 0;
+  }
+
+  header .navbar-expand-lg .navbar-nav .nav-item{
+    padding: 25px 0;
+    text-align: center;
+  }
+  header .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 4.8rem;
+    font-weight: 500;
+    line-height: 6.4rem;
+    text-align: center;
+    opacity: 0;
+    transition:all .8s linear;
+    display: inline-block;
+    translate: 0 40px;
+  }
+
+  header .navbar-expand-lg .navbar-nav .nav-link::before{
+    top: 50%;
+    left: -15px;
+    translate:0 -50% ;
+    right: unset;
+  }
+  header .navbar-expand-lg  .collapse:not(.show).menu-show .navbar-nav .nav-link{
+    opacity: 1;
+    translate: 0 0px;
+  }
+
+
+
+
+  /*     */
+
+  .banner {
+    min-height: 650px;
+  }
+  .banner_title {
+    font-size: 6.5rem;
+  }
+  .banner_title::first-letter {
+    font-size: 7.7rem;
+  }
+  .rocky_text,
+  .otherPage_title {
+    font-size: 4.4rem;
+  }
+
+
+  .themeBtn {
+    min-width: 14rem;
+    min-height: 5rem;
+    font-size: 1.6rem;
+    padding: 1.2rem 3rem;
+  }
+
+
+  .about_us:before {
+    width: 550px;
+    top: 0;
+  }
+  .aboutHeading_content .heading ,
+  .headingAbout_content {
+    font-size: 5.5rem;
+  }
+  .themeBtn_2{
+    min-width: 14rem;
+    min-height: 5rem;
+    padding: 1.2rem 2rem;
+ }
+
+ .howToPlay {
+    min-height: unset;
+  }
+
+
+  .hotToPlay_col_1 {
+    flex: 0 0 320px;
+    max-width: 320px;
+  }
+  .hotToPlay_col_2 {
+    flex: 0 0 calc(100% - 320px);
+    max-width: calc(100% - 320px);
+  }
+  .swiperParentRelate {
+    top: 8px;
+    max-width: 197px;
+  }
+  .howToPlayHeading {
+    font-size: 6rem;
+    line-height: 6rem;
+    translate: calc(-0.5% * (max(var(--scroll), 60) - 103) * 105 / 21) 0;
+  }
+
+  .commonHeading {
+    font-size: 5.5rem;
+    line-height: 6rem;
+  }
+  .howPlay_contentBlock p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    padding-left: 11px;
+    border-width: 3px;
+  }
+  .howPlay_contentBlock {
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  .downloadSection p{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  .featureCard_col_content {
+    padding: 25px 15px 0;
+    gap:15px;
+  }
+  .featureCard_col_content h3 {
+    font-size: 11.8rem;
+    line-height: 10.7rem;
+  }
+  .featureCard_col_content p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  .featureCard_col_content h4 {
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+  }
+  .featureCard {
+    height: 360px;
+  }
+  .testimonialBlock{
+    margin: 15px auto 0;
+  }
+  .testimonial_card img {
+    width: 85px;
+    height: 85px;
+  }
+  .testimonial_card .userWinAmt {
+    font-size: 2.8rem;
+  }
+  .testimonialBlock::after{
+    transform: scale(0.8);
+    bottom: -15px;
+  }
+  .testimonialBlock::before{
+    transform: scale(0.8);
+    top: 5px;
+  }
+  .appGetcontnt {
+    padding-bottom: 25px;
+  }
+  .getAppImg {
+    margin: auto;
+    margin-top: -145px;
+    text-align: center;
+    max-width: 245px;
+  }
+  .footerLogo img{
+    max-height: 45px;
+  }
+  .clientLogo_card img{
+    max-height: 50px;
+  }
+  .mailGroup .appBtn{
+    height: 50px;
+    width: 150px;
+    flex: 0 0 150px;
+  }
+  .mailGroup .form-control{
+    height: 50px;
+  }
+
+  .light_heading {
+    font-size: 9rem;
+    translate: calc(-0.5% * (max(var(--scroll), 10) - 51) * 100 / 18) -35px;
+  }
+  .featureHeadingAnime {
+    translate: 0 calc(-0.5% * (max(var(--scroll), 170)  - 228) * 72 / 89);
+    line-height: 13rem;
+    font-size: 9rem;
+  }
+  .testimonials_section .featureBack_title {
+    font-size: 9rem;
+    line-height: 13rem;
+    margin-top: -65px;
+    translate: calc(-1% * (max(var(--scroll), 205) - 255) * 238 / 112) 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .cursor,
+  .cursor2{
+    display: none;
+  }
+
+  .banner {
+    min-height: 440px;
+    padding: 110px 0 50px;
+  }
+  .banner_title {
+    font-size: 4.5rem;
+  }
+  .banner_title::first-letter{
+    font-size: 5.5rem;
+  }
+  .rocky_text ,
+  .otherPage_title{
+    font-size: 3.4rem;
+  }
+  .banner .banner_details{
+    gap:4rem
+  }
+  .themeBtn{
+    padding: 1.2rem 2rem;
+  }
+
+  .light_heading {
+    font-size: 7rem;
+    translate: 0 -20px;
+    line-height: 1;
+  }
+  .about_us:before {
+    width: 420px;
+    top: 0;
+    z-index: -1;
+  }
+  .mobile_img img {
+    max-width: 365px;
+    margin: auto;
+    width: 100%;
+  }
+  .mobile_img{
+    text-align: center;
+  }
+  .row_spece{
+    margin-top: 0;
+  }
+  .aboutHeading_content{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .themeBtn_2{
+    margin: auto;
+  }
+  .aboutHeading_content .heading ,
+  .commonHeading,
+  .headingAbout_content {
+    font-size: 5rem;
+  }
+
+
+  .hotToPlay_col_2,
+  .hotToPlay_col_1{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .hotToPlay_col_2{
+    order: -1;
+  }
+  .howToPlayHeading{
+    translate: unset;
+    text-align: center;
+  }
+
+  .howPlay_contentBlock {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .howToPlay{
+    padding-top: 60px;
+  }
+  .swiper-pagination-how{
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+  }
+  .mobileMaskParent {
+    position: relative;
+    max-width: 320px;
+    margin: auto;
+  }
+  .howPlay_contentBlock p{
+    border: 0;
+    padding-left: 0;
+  }
+  .featureHeadingAnime {
+    translate: 0px 15px;
+    line-height: 8rem;
+    font-size: 7rem;
+    margin: -35px 0 0px;
+  }
+  .featureCard {
+    height: auto;
+  }
+  .testimonials_section .featureBack_title{
+    translate: unset;
+    font-size: 7rem;
+    line-height: 8rem;
+    margin-top: -45px;
+  }
+  .getAppImg {
+       /* margin: auto; */
+       margin-top: -90px;
+       text-align: center;
+       /* max-width: 138px; */
+       /* display: none; */
+  }
+  .testimonials_section {
+    padding: 50px 0 75px;
+  }
+  .testiArrowGroup button {
+    width: 35px;
+    height: 35px;
+    min-width: 35px;
+    padding: 8px;
+  }
+  .testimonial_card .userWinAmt {
+    font-size: 2.1rem;
+    line-height: 4rem;
+  }
+  .footerAddress{
+    margin-top: 20px;
+  }
+  .footerLinkMenu{
+    flex-wrap: wrap;
+    margin:20px 0;
+  }
+  .copyRightBlock{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .copyRightText{
+    flex: 0 0 100%;
+
+  }
+
+  .contactSection{
+    padding:60px 0
+  }
+ 
+}
+
+
+
+@media (max-width: 575.98px) {
+  header{
+    padding: 20px 0;
+  }
+  .banner_title {
+    font-size: 3.5rem;
+    -webkit-text-stroke-width: 1px;
+  }
+  .banner_title::first-letter{
+    font-size: 4rem;
+  }
+  .rocky_text,
+  .otherPage_title {
+    font-size: 2.7rem;
+  }
+  
+  .rocky_text,
+  .otherPage_title {
+    font-size: 2.7rem;
+  }
+  .themeBtn {
+    min-width: 13rem;
+    min-height: 4rem;
+    font-size: 1.5rem;
+    padding: 1rem 2rem
+  }
+  .banner{
+    min-height: 400px;
+  }
+  header .navbar-brand img {
+    max-height: 40px;
+  }
+  .navbar-toggler{
+    right: 5px;
+  }
+  .light_heading {
+    font-size: 5rem;
+    translate: unset;
+  }
+  .about_us{
+    padding: 4rem 0;
+  }
+  .about_us:before {
+    width: 300px;
+  }
+
+  .aboutHeading_content .heading, .commonHeading,
+  .headingAbout_content  {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .aboutHeading_content p {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+  .themeBtn_2 {
+    min-width: 14rem;
+    min-height: 4.4rem;
+    padding: 1.2rem 2rem;
+    font-size: 1.5rem;
+  }
+  .howToPlayHeading {
+    font-size: 5rem;
+    line-height: 1;
+  }
+  .howPlay_contentBlock {
+    gap: 10px;
+  }
+  .howPlay_contentBlock p{
+    font-size: 1.4rem;
+  }
+  .howToPlay {
+    padding-top: 40px;
+  }
+  .swiper-pagination-how .swiper-pagination-bullet {
+    font-size: 8rem;
+    line-height: 1;
+  }
+  .howToPlay::before{
+    content:'';
+  }
+  .howToPlay::after{
+    content: url(../img/repeatGrid.svg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+  }
+  .downloadSection {
+    padding: 40px 0;
+  }
+  .downloadSection p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  .mailGroup {
+    margin: 20px auto 0;
+  }
+  .mailGroup .appBtn {
+    height: 44px;
+    width: 110px;
+    flex: 0 0 110px;
+    font-size: 1.4rem;
+  }
+  .mailGroup .form-control {
+    height: 44px;
+    font-size: 1.4rem;
+    padding: 5px 12px;
+  }
+  .clientSection::before{
+    opacity: .7;
+  }
+  .clientSection {
+    padding: 45px 0 ;
+  }
+  .clientLogo_card{
+    text-align: center;
+  }
+  .clientLogo_card img {
+    max-height: 40px;
+  }
+  .featureHeadingAnime {
+    translate: 0px 0;
+    line-height: 1;
+    font-size: 5rem;
+    margin: -5px 0 0px;
+  }
+  .featureCard_col_content{
+    min-height: 340px;
+  }
+  .featureCard_col_content p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+  .featureCard_col_content h3 {
+    font-size: 9.5rem;
+    line-height: 7.7rem;
+  }
+  .testimonials_section {
+    padding: 40px 0;
+  }
+  .testimonials_section .featureBack_title {
+    translate: unset;
+    font-size: 5rem;
+    line-height: 1;
+    margin-top: -5px;
+  }
+  .testimonialBlock::before {
+    transform: scale(0.5);
+    top: -17px;
+    left: -17px;
+  }
+  .testimonialBlock::after {
+    transform: scale(0.5);
+    bottom: -17px;
+    right: -17px;
+  }
+  .testimonial_card img {
+    width: 70px;
+    height: 70px;
+  }
+  .testimonial_card .userName {
+    font-size: 1.6rem;
+    margin-top: 10px;
+  }
+  .testimonial_card .userDesgination{
+    font-size: 1.4rem;
+  }
+  .testimonial_card .userContent_review {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    margin-top: 15px;
+  }
+  .testiArrowGroup button {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    padding: 8px;
+    top: 35%;
+    z-index: 1;
+  }
+  .testimonial_card .userWinAmt {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .testiArrowGroup button:not(.swiper-button-disabled):hover img {
+    transform: unset;
+  }
+  .getAppSection {
+    padding: 40px 0;
+  }
+  .getAppImg{
+    display: none;
+  }
+  .appGetcontnt {
+    padding-bottom: 0;
+  }
+  .appGetcontnt p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    margin-top: 0;
+  }
+  .getAppGroup {
+    margin-top: 20px;
+    max-width: 260px;
+  }
+  .footerLogo img {
+    max-height: 40px;
+  }
+  .footerAddress {
+    margin-top: 15px;
+    flex-wrap: wrap;
+  }
+  .copyRightText {
+    font-size: 1.3rem;
+    color: rgba(255,255,255,.5);
+  }
+  .footerLinkMenu li a, .copyRightText, .footerAddress {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+  header .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 3.8rem;
+    font-weight: 500;
+    line-height: 5.4rem;
+  }
+  header .navbar-expand-lg .navbar-nav .nav-item {
+    padding: 15px 0;
+    text-align: center;
+  }
+  header .collapse:not(.show)::before{
+    width: 285px;
+    height: 285px;
+  }
+
+  .contentOtherPage{
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .subHeading_about {
+    font-size: 2rem;
+    color: #111111;
+    font-weight: 600;
+    margin-bottom: 11px;
+  }
+  .content_about p {
+    font-size: 1.4rem;
+    color: #1D1D1D;
+    margin-bottom: 10px;
+  }
+  ul.registerList,
+  ul.aboutList{
+    gap:10px;
+  }
+  ul.registerList li{
+    font-size: 14px;
+    padding-left: 52px;
+  }
+  ul.aboutList li{
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  ul.registerList li::before,
+  ul.aboutList li::before{
+    font-size: 14px;
+  }
+
+  .headingAbout_content{
+    margin-bottom:30px;
+  }
+  section.banner.otherPageBanner {
+    min-height: 214px;}
+
+}
