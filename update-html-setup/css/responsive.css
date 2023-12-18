@@ -1,0 +1,168 @@
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1309px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) {
+  
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ 
+  
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+}
+
+@media (max-width: 991.98px) {
+  
+}
+
+@media (max-width: 991.98px) {
+ 
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .navbar-toggler {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0px;
+    padding: 0;
+    z-index: 1;
+  }
+
+  .navbar-toggler:before {
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: 2px;
+    width: 22px;
+    background: #ec2027;
+    content: "";
+  }
+
+  .navbar-toggler span {
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+    display: block;
+    height: 2px;
+    width: 22px;
+    background: #ec2027;
+  }
+  .navbar-toggler:after {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    display: block;
+    height: 4px;
+    width: 22px;
+    border-top: 2px solid #ec2027;
+    content: "";
+  }
+  .navbar-toggler.menu-opened:before {
+    top: 10px;
+    background: #ec2027;
+    width: 22px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .navbar-toggler.menu-opened span {
+    opacity: 0;
+  }
+
+  .navbar-toggler.menu-opened:after {
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    top: 10px;
+    border: 0;
+    height: 2px;
+    width: 22px;
+    background: #ec2027;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /* Main Menu */
+  header .collapse:not(.show) {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    height: 100vh;
+    overflow-y: auto;
+    width: 250px;
+    background: #fff;
+    padding: 0 12px;
+    padding-top: 110px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+    z-index: 1;
+  }
+
+  header .collapse:not(.show).menu-show {
+    left: 0px;
+  }
+
+  body.scroll-off {
+    overflow-y: hidden;
+  }
+
+  
+  .overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+  
+}
+
+@media (max-width: 767.98px) {
+  
+ 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+}
+
+@media (max-width: 575.98px) {
+  
+  
+  
+}
