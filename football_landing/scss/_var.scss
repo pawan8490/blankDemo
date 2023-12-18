@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Design';
+    src: url('../font/DesignRegular.eot');
+    src: url('../font/DesignRegular.eot?#iefix') format('embedded-opentype'),
+        url('../font/DesignRegular.woff2') format('woff2'),
+        url('../font/DesignRegular.woff') format('woff'),
+        url('../font/DesignRegular.ttf') format('truetype'),
+        url('../font/DesignRegular.svg#DesignRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+// font family
+
+$primary-font-family: 'Hind', sans-serif;
+$scondary-font-family: 'Design', sans-serif;
+$third-font-family: 'Poppins', sans-serif;
+
+// colors
+
+$white-color:#fff;
+$black-color:#000;
+$silver-color:#c0c0c0;
+$theme-color: #F41E47;
+$heading-color:#111111;
+$body-color:#404040;
+$section_bg:#F7F8FC;
+$count-color:#EBECEF;
+
+
+
+// media query
+
+$xtraLarge_screen:1659.98px;
+$large_screen: 1439.98px;
+$medium_screen: 1199.98px;
+$tab_screen: 991.98px;
+$small_screen: 767.98px;
+$xtraSmall_screen: 575.98px;
